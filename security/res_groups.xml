@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="group_patient_draft" model="res.groups">
+        <field name="name">Patient Draft State</field>
+    </record>
+    <record id="group_patient_confirmed" model="res.groups">
+        <field name="name">Patient Confirmed State</field>
+    </record>
+    <record id="group_patient_done" model="res.groups">
+        <field name="name">Patient Done State</field>
+    </record>
+    <record id="group_patient_cancel" model="res.groups">
+        <field name="name">Patient Cancel State</field>
+    </record>
+
+
+</odoo>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="mail_activity_om_hospital" model="mail.activity.type">
+        <field name="name">Hospital Patient</field>
+        <field name="res_model_id" ref="om_hospital.model_hospital_patient"/>
+    </record>
+</odoo>
